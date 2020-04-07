@@ -10,7 +10,7 @@ echo "You are using $package_manager. Installing your packages..."
 case "$package_manager" in
 # Ubuntu/Debian
 "apt")
-    sudo apt install neofetch tlp powertop godot3 
+    sudo apt install neofetch tlp powertop godot3
     sudo snap install discord
     sudo snap install codium --classic
     ;;
