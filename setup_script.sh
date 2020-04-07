@@ -5,6 +5,7 @@ echo
 echo "install-base-packages"
 echo "install-joplin"
 echo "install-unity"
+echo "install-fish"
 echo "download-github-projects"
 echo "configure-tlp-powertop"
 echo "all"
@@ -88,9 +89,11 @@ case "$action" in
     git clone https://github.com/tghgg/music-player.git
     ;;
 *)
-    echo "Action unrecognized."
+    echo "Action unrecognized. It should be added in the future."
     ;;
 esac
+
 # Cleanup and finish
+cd
 clear
 echo "Done!"
