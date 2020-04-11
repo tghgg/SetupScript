@@ -14,7 +14,6 @@ read action
 
 case "$action" in
 "install-base-packages")
-    # Determine the package manager of the system
     echo "What package manager is the current environment using?"
     read package_manager
     echo "You are using $package_manager. Installing your packages..."
@@ -49,7 +48,13 @@ case "$action" in
         ;;
     # Fedora
     "dnf")
-        sudo dnf install neofetch tlp powertop godot
+        # Base packages
+        sudo dnf install neofetch tlp powertop papirus-icon-theme fcitx fcitx-unikey kcm-fcitx krita lmms snapd godot peek
+        # Enable Snap
+        sudo systemctl enable snapd
+        sudo systemctl start snapd
+        sudo snap install discord
+        sudo snap install codium --classic
         ;;
     # openSUSE
     "zypper")
@@ -60,27 +65,26 @@ case "$action" in
         ;;
     esac
     ;;
+"download-configs")
+    echo "Download .configs files from GitHub"
+    ;;
 "install-joplin")
-    # Install Joplin with their script
     echo "Installing Joplin..."
     wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash
     ;;
 "install-unity")
-    # Download Unity Hub
     echo "Downloading Unity..."
     cd ~/Desktop
     wget -O UnityHub.AppImage https://public-cdn.cloud.unity3d.com/hub/prod/UnityHub.AppImage
     chmod +x UnityHub.AppImage
     ;;
 "configure-tlp-powertop")
-    # Configure stuff
     echo "Enabling TLP and auto-tuning Powertop..."
     sudo systemctl enable tlp
     sudo systemctl start tlp
     sudo powertop --auto-tune
     ;;
 "download-github-projects")
-    # Clone my code projects from GitHub
     echo "Cloning your projects from GitHub..."
     mkdir ~/Code
     cd ~/Code
