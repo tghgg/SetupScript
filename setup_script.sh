@@ -7,6 +7,7 @@ echo "install-joplin"
 echo "install-unity"
 echo "install-fish"
 echo "download-github-projects"
+echo "download-configs"
 echo "configure-tlp-powertop"
 echo "all"
 echo
@@ -23,8 +24,8 @@ case "$action" in
     case "$package_manager" in
     # Ubuntu/Debian
     "apt")
-        sudo apt install neofetch tlp powertop godot3
-        sudo snap install discord
+        sudo apt install neofetch tlp powertop papirus-icon-theme fcitx fcitx-unikey krita lmms snapd godot3 peek obs-studio
+        #sudo snap install discord
         sudo snap install codium --classic
         ;;
     # Arch
