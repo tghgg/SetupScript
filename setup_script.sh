@@ -25,7 +25,7 @@ case "$action" in
     # Ubuntu/Debian
     "apt")
         sudo apt install neofetch tlp powertop papirus-icon-theme fcitx fcitx-unikey krita lmms snapd godot3 peek
-        #sudo snap install discord
+        sudo snap install discord
         sudo snap install codium --classic
         ;;
     # Arch
@@ -53,7 +53,7 @@ case "$action" in
         sudo dnf install neofetch tlp powertop papirus-icon-theme fcitx fcitx-unikey kcm-fcitx krita peek
         # Enable Flatpak and install the newest packages
         flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-        sudo flatpak install lmms godot com.visualstudio.code.oss com.obsproject.Studio zoom
+        sudo flatpak install lmms godot com.visualstudio.code.oss com.obsproject.Studio zoom vlc
         ;;
     # openSUSE
     "zypper")
@@ -71,11 +71,10 @@ case "$action" in
     echo "Installing Joplin..."
     wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash
     ;;
-"install-unity-godot")
-    echo "Downloading Unity and Godot..."
+"install-unity")
+    echo "Downloading Unity"
     cd ~/Desktop
     wget -O UnityHub.AppImage https://public-cdn.cloud.unity3d.com/hub/prod/UnityHub.AppImage
-    wget -O GodotEngine.zip https://downloads.tuxfamily.org/godotengine/3.2.1/Godot_v3.2.1-stable_x11.64.zip
     chmod +x UnityHub.AppImage
     ;;
 "configure-tlp-powertop")

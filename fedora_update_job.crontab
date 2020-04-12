@@ -1,0 +1,1 @@
+ 0 17 * * * sudo dnf distro-sync -y >> fedora_update_jog_log.txt
