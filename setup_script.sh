@@ -8,6 +8,7 @@ echo "install-unity-godot"
 echo "install-fish"
 echo "download-github-projects"
 echo "download-configs"
+echo "enable-flathub"
 echo "configure-tlp-powertop"
 echo "all"
 echo
@@ -67,6 +68,10 @@ case "$action" in
 "download-configs")
     echo "Downloading .configs files from GitHub..."
     ;;
+"enable-flathub")
+    echo "Enabling FlatHub for Flatpak..."
+    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    ;;
 "install-joplin")
     echo "Installing Joplin..."
     wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash
@@ -92,7 +97,7 @@ case "$action" in
     git clone https://github.com/tghgg/music-player.git
     ;;
 *)
-    echo "Action unrecognized. It should be added in the future."
+    echo "Action unrecognized."
     ;;
 esac
 
