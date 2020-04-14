@@ -99,7 +99,7 @@ case "$action" in
     ;;
 "install-flatpak-base")
     echo "Installing flatpaks for base packages"
-    flatpak install discord lmms krita godot firefox codium
+    flatpak install discord lmms krita godot firefox com.visualstudio.code.oss com.obsproject.Studio Peek
     ;;
 *)
     echo "Action unrecognized."
