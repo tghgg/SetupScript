@@ -3,6 +3,7 @@
 echo "What do you want to do?"
 echo 
 echo "install-base-packages"
+echo "install-flatpak-base"
 echo "install-joplin"
 echo "install-unity-godot"
 echo "install-fish"
@@ -95,6 +96,10 @@ case "$action" in
     git clone https://github.com/tghgg/SeekerGame.git
     git clone https://github.com/tghgg/AWoO.git
     git clone https://github.com/tghgg/music-player.git
+    ;;
+"install-flatpak-base")
+    echo "Installing flatpaks for base packages"
+    flatpak install discord lmms krita godot firefox codium
     ;;
 *)
     echo "Action unrecognized."
