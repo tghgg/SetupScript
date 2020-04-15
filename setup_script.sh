@@ -103,7 +103,7 @@ case "$1" in
     echo "install-base-packages"
     echo "install-flatpak-base"
     echo "install-joplin"
-    echo "install-unity-godot"
+    echo "install-unity"
     echo "install-fish"
     echo "download-github-projects"
     echo "download-configs"
@@ -116,6 +116,3 @@ case "$1" in
     echo "Action unrecognized."
     ;;
 esac
-
-# Cleanup and finish
-echo "Done!"
