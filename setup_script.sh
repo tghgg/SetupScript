@@ -10,6 +10,7 @@ echo "install-fish"
 echo "download-github-projects"
 echo "download-configs"
 echo "enable-flathub"
+echo "update-grub"
 echo "configure-tlp-powertop"
 echo "all"
 echo
@@ -82,6 +83,10 @@ case "$action" in
     cd ~/Desktop
     wget -O UnityHub.AppImage https://public-cdn.cloud.unity3d.com/hub/prod/UnityHub.AppImage
     chmod +x UnityHub.AppImage
+    ;;
+"update-grub")
+    echo "Updating GRUB"
+    sudo grub2-mkconfig -o /boot/grub2/grub.cfg
     ;;
 "configure-tlp-powertop")
     echo "Enabling TLP and auto-tuning Powertop..."
