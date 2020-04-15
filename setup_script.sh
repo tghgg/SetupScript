@@ -88,7 +88,7 @@ case "$1" in
     ;;
 "install-flatpak-base")
     echo "Installing flatpaks for base packages"
-    flatpak install discord lmms krita godot firefox com.visualstudio.code.oss com.obsproject.Studio Peek
+    flatpak install discord lmms krita godot firefox com.visualstudio.code.oss com.obsproject.Studio Peek zoom vlc
     ;;
 "smolfetch")
     if [ "$2" = "small" ] 
