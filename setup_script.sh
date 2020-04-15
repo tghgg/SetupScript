@@ -1,22 +1,6 @@
 #!/bin/bash
 
-echo "What do you want to do?"
-echo 
-echo "install-base-packages"
-echo "install-flatpak-base"
-echo "install-joplin"
-echo "install-unity-godot"
-echo "install-fish"
-echo "download-github-projects"
-echo "download-configs"
-echo "enable-flathub"
-echo "update-grub"
-echo "configure-tlp-powertop"
-echo "all"
-echo
-read action
-
-case "$action" in
+case "$1" in
 "install-base-packages")
     echo "What package manager is the current environment using?"
     read package_manager
@@ -106,12 +90,32 @@ case "$action" in
     echo "Installing flatpaks for base packages"
     flatpak install discord lmms krita godot firefox com.visualstudio.code.oss com.obsproject.Studio Peek
     ;;
+"smolfetch")
+    if [ "$2" = "small" ] 
+    then
+        neofetch --ascii_distro "$3"_small --disable theme icons gpu resolution wmtheme cpu wm uptime --color_blocks off
+    else
+        neofetch --disable theme icons gpu resolution wmtheme cpu wm uptime --color_blocks off
+    fi
+    ;;
+"help")
+    echo "Commands:"
+    echo "install-base-packages"
+    echo "install-flatpak-base"
+    echo "install-joplin"
+    echo "install-unity-godot"
+    echo "install-fish"
+    echo "download-github-projects"
+    echo "download-configs"
+    echo "enable-flathub"
+    echo "update-grub"
+    echo "configure-tlp-powertop"
+    echo "smolfetch"
+    ;;
 *)
     echo "Action unrecognized."
     ;;
 esac
 
 # Cleanup and finish
-cd
-echo
 echo "Done!"
