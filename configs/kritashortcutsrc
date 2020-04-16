@@ -1,0 +1,9 @@
+[Shortcuts]
+InteractionTool=Q
+KisToolTransform=S
+KritaFill/KisToolGradient=none
+KritaShape/KisToolMultiBrush=none
+KritaShape/KisToolRectangle=R
+SvgTextTool=G
+selection_tool_mode_replace=none
+selection_tool_mode_subtract=none

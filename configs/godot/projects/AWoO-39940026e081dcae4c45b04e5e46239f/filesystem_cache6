@@ -1,0 +1,368 @@
+be5a452dd999bd920376c85c99f0f384
+::res://::1587047235
+default_env.tres::Environment::1587047081::0::1::::<><>::
+icon.png::StreamTexture::1587047081::1587047081::1::::<><>::
+icon_cursed.png::StreamTexture::1587047081::1587047376::1::::<><>::
+particle.png::StreamTexture::1587047081::1587047081::1::::<><>::
+talk.png::StreamTexture::1587047081::1587047376::1::::<><>::
+::res://addons/::1587047080
+::res://addons/MSG_System/::1587047080
+choice_button.tscn::PackedScene::1587047080::0::1::::<><>::res://addons/MSG_System/fonts/font_normal.tres<>res://addons/MSG_System/scripts/choice_button.gd<>res://addons/MSG_System/sfx/click_02.wav<>res://addons/MSG_System/sfx/click_03.wav
+MSG_Box.tscn::PackedScene::1587047080::0::1::::<><>::res://addons/MSG_System/scripts/MSG_Box.gd<>res://addons/MSG_System/img/window.png<>res://addons/MSG_System/fonts/font_mono.tres<>res://assets/textures/dialog_box.png<>res://addons/MSG_System/fonts/font_italics.tres<>res://addons/MSG_System/fonts/font_bold.tres<>res://addons/MSG_System/fonts/font_normal.tres<>res://addons/MSG_System/sfx/dialogue_sound.wav<>res://addons/MSG_System/fonts/font_bold_italics.tres
+MSG_Bubble.tscn::PackedScene::1587047080::0::1::::<><>::res://addons/MSG_System/scripts/MSG_Bubble.gd<>res://addons/MSG_System/img/window_triangle_2.png<>res://addons/MSG_System/img/window.png<>res://addons/MSG_System/fonts/font_normal.tres<>res://addons/MSG_System/sfx/dialogue_sound.wav<>res://addons/MSG_System/fonts/font_bold.tres
+MSG_Options.tscn::PackedScene::1587047080::0::1::::<><>::
+MSG_Parser.tscn::PackedScene::1587047080::0::1::::<><>::res://addons/MSG_System/scripts/MSG_Parser.gd
+::res://addons/MSG_System/fonts/::1587047080
+font_bold.tres::DynamicFont::1587047080::0::1::::<><>::res://addons/MSG_System/fonts/open_sans/OpenSans-Bold.ttf
+font_bold_italics.tres::DynamicFont::1587047080::0::1::::<><>::res://addons/MSG_System/fonts/open_sans/OpenSans-BoldItalic.ttf
+font_italics.tres::DynamicFont::1587047080::0::1::::<><>::res://addons/MSG_System/fonts/open_sans/OpenSans-Italic.ttf
+font_mono.tres::DynamicFont::1587047080::0::1::::<><>::res://addons/MSG_System/fonts/open_sans/OpenSans-Regular.ttf
+font_normal.tres::DynamicFont::1587047080::0::1::::<><>::res://addons/MSG_System/fonts/open_sans/OpenSans-Regular.ttf
+::res://addons/MSG_System/fonts/open_sans/::1587047080
+OpenSans-Bold.ttf::DynamicFontData::1587047080::0::1::::<><>::
+OpenSans-BoldItalic.ttf::DynamicFontData::1587047080::0::1::::<><>::
+OpenSans-ExtraBold.ttf::DynamicFontData::1587047080::0::1::::<><>::
+OpenSans-ExtraBoldItalic.ttf::DynamicFontData::1587047080::0::1::::<><>::
+OpenSans-Italic.ttf::DynamicFontData::1587047080::0::1::::<><>::
+OpenSans-Light.ttf::DynamicFontData::1587047080::0::1::::<><>::
+OpenSans-LightItalic.ttf::DynamicFontData::1587047080::0::1::::<><>::
+OpenSans-Regular.ttf::DynamicFontData::1587047080::0::1::::<><>::
+OpenSans-SemiBold.ttf::DynamicFontData::1587047080::0::1::::<><>::
+OpenSans-SemiBoldItalic.ttf::DynamicFontData::1587047080::0::1::::<><>::
+::res://addons/MSG_System/img/::1587047080
+window.png::StreamTexture::1587047080::1587047080::1::::<><>::
+window_triangle_2.png::StreamTexture::1587047080::1587047080::1::::<><>::
+::res://addons/MSG_System/other/::1587047080
+timer.gd::GDScript::1587047080::0::1::::<>Timer<>::
+timer.tscn::PackedScene::1587047080::0::1::::<><>::res://addons/MSG_System/other/timer.gd
+::res://addons/MSG_System/scripts/::1587047080
+choice_button.gd::GDScript::1587047080::0::1::::<>Button<>::
+item_message.gd::GDScript::1587047080::0::1::::<>Control<>::
+MSG_Box.gd::GDScript::1587047080::0::1::::<>ParallaxBackground<>::
+MSG_Bubble.gd::GDScript::1587047080::0::1::::<>Node2D<>::
+MSG_Parser.gd::GDScript::1587047080::0::1::::<>Node<>::
+::res://addons/MSG_System/sfx/::1587047080
+click_01.wav::AudioStreamSample::1587047080::1587047080::1::::<><>::
+click_02.wav::AudioStreamSample::1587047080::1587047080::1::::<><>::
+click_03.wav::AudioStreamSample::1587047080::1587047080::1::::<><>::
+dialogue_sound.wav::AudioStreamSample::1587047080::1587047080::1::::<><>::
+::res://addons/MSG_System/themes/::1587047080
+choice_button_theme.tres::Theme::1587047080::0::1::::<><>::
+::res://assets/::1587047081
+::res://assets/characters/::1587047080
+::res://assets/characters/helen/::1587047080
+face1.png::StreamTexture::1587047080::1587047383::1::::<><>::
+helen0.png::StreamTexture::1587047080::1587047383::1::::<><>::
+helen1.png::StreamTexture::1587047080::1587047383::1::::<><>::
+helen2.png::StreamTexture::1587047080::1587047383::1::::<><>::
+Helen happy.png::StreamTexture::1587047080::1587047383::1::::<><>::
+Helen normal.png::StreamTexture::1587047080::1587047383::1::::<><>::
+Helen sad.png::StreamTexture::1587047080::1587047383::1::::<><>::
+Helen scared 2.png::StreamTexture::1587047080::1587047382::1::::<><>::
+Helen scared .png::StreamTexture::1587047080::1587047382::1::::<><>::
+Helen sprite.png::StreamTexture::1587047080::1587047382::1::::<><>::
+::res://assets/characters/mayor_wife/::1587047080
+Mayor's wife.png::StreamTexture::1587047080::1587047382::1::::<><>::
+::res://assets/characters/player/::1587047235
+body_shape.tres::CapsuleShape2D::1587047235::0::1::::<><>::
+evan0.png::StreamTexture::1587047080::1587047382::1::::<><>::
+evan1.png::StreamTexture::1587047080::1587047382::1::::<><>::
+evan2.png::StreamTexture::1587047080::1587047382::1::::<><>::
+Evan happy.png::StreamTexture::1587047080::1587047382::1::::<><>::
+Evan normal.png::StreamTexture::1587047080::1587047382::1::::<><>::
+Evan sprite, missing 3rd frame (same as frame 1).png::StreamTexture::1587047080::1587047381::1::::<><>::
+face.tres::SpriteFrames::1587047080::0::1::::<><>::res://assets/characters/player/Evan normal.png<>res://assets/characters/player/Evan happy.png
+frame0000.png::StreamTexture::1587047080::1587047381::1::::<><>::
+frame0001.png::StreamTexture::1587047080::1587047381::1::::<><>::
+frame0002.png::StreamTexture::1587047080::1587047381::1::::<><>::
+Sprite-0001.png::StreamTexture::1587047080::1587047381::1::::<><>::
+Sprite-0002.png::StreamTexture::1587047080::1587047381::1::::<><>::
+Sprite-0003.png::StreamTexture::1587047080::1587047381::1::::<><>::
+Sprite-0004.png::StreamTexture::1587047080::1587047381::1::::<><>::
+sprite.tres::SpriteFrames::1587047080::0::1::::<><>::res://assets/characters/player/evan0.png<>res://assets/characters/player/evan1.png<>res://assets/characters/player/evan2.png
+::res://assets/concept_art/::1587047235
+apartments.png::StreamTexture::1587047080::1587047381::1::::<><>::
+before_room_evan.png::StreamTexture::1587047080::1587047381::1::::<><>::
+church.png::StreamTexture::1587047080::1587047381::1::::<><>::
+church_overlay.png::StreamTexture::1587047080::1587047396::1::::<><>::
+f2_new.png::StreamTexture::1587047235::1587047396::1::::<><>::
+floor1.png::StreamTexture::1587047235::1587047396::1::::<><>::
+industry_gate.png::StreamTexture::1587047080::1587047395::1::::<><>::
+main_town_path.png::StreamTexture::1587047080::1587047395::1::::<><>::
+park_path1.png::StreamTexture::1587047080::1587047395::1::::<><>::
+public_gathering.png::StreamTexture::1587047080::1587047395::1::::<><>::
+villas.png::StreamTexture::1587047080::1587047394::1::::<><>::
+::res://assets/dialogues/::1587047080
+::res://assets/dialogues/intro/::1587047080
+::res://assets/dialogues/intro/new_intro/::1587047080
+::res://assets/dialogues/jam/::1587047080
+::res://assets/dialogues/jam/day1/::1587047080
+::res://assets/dialogues/jam/day2/::1587047080
+::res://assets/dialogues/jam/day3/::1587047080
+::res://assets/dialogues/testing/::1587047080
+::res://assets/music/::1587047081
+Floor Creaking.ogg::AudioStreamOGGVorbis::1587047080::1587047394::1::::<><>::
+Open Sea Morning  - Puddle of Infinity.ogg::AudioStreamOGGVorbis::1587047080::1587047394::1::::<><>::
+park.wav::AudioStreamSample::1587047080::1587047394::1::::<><>::
+simple version of ending.ogg::AudioStreamOGGVorbis::1587047080::1587047394::1::::<><>::
+slow_low.ogg::AudioStreamOGGVorbis::1587047081::1587047394::1::::<><>::
+::res://assets/screenshots/::1587047081
+Screenshot_20200227_172739.png::StreamTexture::1587047081::1587047394::1::::<><>::
+Screenshot_20200304_044648.png::StreamTexture::1587047081::1587047393::1::::<><>::
+Screenshot_20200310_000817.png::StreamTexture::1587047081::1587047393::1::::<><>::
+Screenshot_20200310_000838.png::StreamTexture::1587047081::1587047393::1::::<><>::
+::res://assets/textures/::1587047081
+bg.png::StreamTexture::1587047081::1587047376::1::::<><>::
+dialog_box.png::StreamTexture::1587047081::1587047376::1::::<><>::
+settings.png::StreamTexture::1587047081::1587047376::1::::<><>::
+::res://assets/textures/CGs/::1587047081
+download.jpeg::StreamTexture::1587047081::1587047392::1::::<><>::
+::res://assets/textures/UI/::1587047081
+gear.png::StreamTexture::1587047081::1587047376::1::::<><>::
+settings.png::StreamTexture::1587047081::1587047376::1::::<><>::
+::res://assets/textures/effects/::1587047081
+fog.png::StreamTexture::1587047081::1587047392::1::::<><>::
+::res://assets/textures/levels/::1587047081
+home.png::StreamTexture::1587047081::1587047378::1::::<><>::
+hood.png::StreamTexture::1587047081::1587047377::1::::<><>::
+level.png::StreamTexture::1587047081::1587047377::1::::<><>::
+::res://assets/textures/levels/final/::1587047081
+::res://assets/textures/levels/final/day1/::1587047081
+apartment hallway.png::StreamTexture::1587047081::1587047392::1::::<><>::
+church2.png::StreamTexture::1587047081::1587047391::1::::<><>::
+church.png::StreamTexture::1587047081::1587047390::1::::<><>::
+cliff.png::StreamTexture::1587047081::1587047388::1::::<><>::
+court of commune foreground trees.png::StreamTexture::1587047081::1587047387::1::::<><>::
+court of commune lampost.png::StreamTexture::1587047081::1587047386::1::::<><>::
+Court of the Commune .png::StreamTexture::1587047081::1587047386::1::::<><>::
+Court of the Commune w ppl.png::StreamTexture::1587047081::1587047385::1::::<><>::
+evan_s bed room.png.png::StreamTexture::1587047081::1587047375::1::::<><>::
+evan_s living room.png.png::StreamTexture::1587047081::1587047374::1::::<><>::
+glass1.png::StreamTexture::1587047081::1587047373::1::::<><>::
+glass.png::StreamTexture::1587047081::1587047373::1::::<><>::
+headge.png::StreamTexture::1587047081::1587047372::1::::<><>::
+industry.png::StreamTexture::1587047081::1587047372::1::::<><>::
+lampost.png::StreamTexture::1587047081::1587047371::1::::<><>::
+main path.png::StreamTexture::1587047081::1587047370::1::::<><>::
+Main path.png.png::StreamTexture::1587047081::1587047369::1::::<><>::
+park pathway.png::StreamTexture::1587047081::1587047367::1::::<><>::
+tree 1.png::StreamTexture::1587047081::1587047366::1::::<><>::
+villas.png::StreamTexture::1587047081::1587047366::1::::<><>::
+::res://assets/textures/levels/final/day2/::1587047081
+Court of the Commune w ppl.png::StreamTexture::1587047081::1587047364::1::::<><>::
+park pathway.png::StreamTexture::1587047081::1587047363::1::::<><>::
+::res://assets/textures/levels/testing/::1587047235
+ lady.png::StreamTexture::1587047081::1587047361::1::::<><>::
+aede.png::StreamTexture::1587047081::1587047361::1::::<><>::
+church.png::StreamTexture::1587047081::1587047361::1::::<><>::
+day1.png::StreamTexture::1587047081::1587047361::1::::<><>::
+delivery.png::StreamTexture::1587047081::1587047360::1::::<><>::
+delivery_overlay_building.png::StreamTexture::1587047081::1587047360::1::::<><>::
+delivery_overlay_trees.png::StreamTexture::1587047081::1587047359::1::::<><>::
+evan_house.png::StreamTexture::1587047081::1587047359::1::::<><>::
+evan_house_overlay_door.png::StreamTexture::1587047081::1587047359::1::::<><>::
+nununu.png::StreamTexture::1587047081::1587047358::1::::<><>::
+park_day2.png::StreamTexture::1587047081::1587047358::1::::<><>::
+park_day2_parallax.png::StreamTexture::1587047081::1587047358::1::::<><>::
+plane 1.png::StreamTexture::1587047235::1587047357::1::::<><>::
+plane 2A stairs.png::StreamTexture::1587047235::1587047380::1::::<><>::
+plane 2B1 villas (Helen's house on far left).png::StreamTexture::1587047235::1587047380::1::::<><>::
+plane 2B1 villas (Helen_s house on far left).png::StreamTexture::1587047235::1587047380::1::::<><>::
+plane 2B apartment.png::StreamTexture::1587047235::1587047380::1::::<><>::
+plane 2B villas.png::StreamTexture::1587047235::1587047380::1::::<><>::
+station.png::StreamTexture::1587047081::1587047380::1::::<><>::
+station_car1.png::StreamTexture::1587047081::1587047379::1::::<><>::
+station_car2.png::StreamTexture::1587047081::1587047379::1::::<><>::
+townhall.png::StreamTexture::1587047081::1587047378::1::::<><>::
+townhall_hall.png::StreamTexture::1587047081::1587047378::1::::<><>::
+::res://assets/textures/light/::1587047081
+ moonlight_particle.png::StreamTexture::1587047081::1587047377::1::::<><>::
+light.png::StreamTexture::1587047081::1587047377::1::::<><>::
+moonlight.png::StreamTexture::1587047081::1587047377::1::::<><>::
+player_light.png::StreamTexture::1587047081::1587047377::1::::<><>::
+spot.png::StreamTexture::1587047081::1587047376::1::::<><>::
+::res://assets/textures/particles/::1587047081
+ moonlight_particle.png::StreamTexture::1587047081::1587047376::1::::<><>::
+dark_snow.png::StreamTexture::1587047081::1587047376::1::::<><>::
+::res://src/::1587047081
+::res://src/Scenes/::1587047081
+::res://src/Scenes/Dev/::1587047235
+Dev.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://assets/textures/bg.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/HelenPlayer.tscn<>res://src/Templates/Enemy.tscn<>res://icon.png
+TemplateaftfScene.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://assets/textures/light/player_light.png<>res://src/Scripts/NewScene.gd<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Transition.tscn<>res://icon.png<>res://particle.png<>res://src/Templates/CGHandler.tscn<>res://assets/textures/bg.png<>res://assets/characters/helen/helen2.png<>res://assets/textures/light/moonlight.png<>res://src/Templates/EnemyMovement.gd<>res://src/Templates/LayerSystem.tscn<>res://addons/MSG_System/fonts/font_normal.tres<>res://assets/characters/helen/helen1.png<>res://assets/characters/player/frame0000.png<>res://assets/characters/helen/Helen scared 2.png<>res://assets/characters/helen/Helen happy.png<>res://src/Scripts/TalkBubble.gd<>res://icon_cursed.png<>res://assets/characters/player/frame0002.png<>res://assets/characters/helen/Helen normal.png<>res://assets/characters/player/body_shape.tres<>res://assets/characters/player/frame0001.png<>res://assets/characters/helen/Helen sad.png<>res://assets/characters/helen/helen0.png<>res://addons/MSG_System/fonts/open_sans/OpenSans-Regular.ttf<>res://addons/MSG_System/fonts/font_bold.tres<>res://src/Scripts/Control.gd<>res://src/Templates/Future-Uses/VolumeSlider.tscn<>res://src/Scripts/CloakTimer.gd
+test.tscn::PackedScene::1587047235::0::1::::<><>::res://src/Templates/Effects/ShinySmall.tres<>res://src/Scripts/NewScene.gd<>res://particle.png<>res://assets/textures/levels/testing/plane 2A stairs.png<>res://src/Templates/Future-Uses/Surreal.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/HelenPlayer.tscn
+tfat.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Object.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/CGHandler.tscn<>res://assets/textures/bg.png<>res://src/Templates/HelenPlayer.tscn<>res://src/Templates/Enemy.tscn<>res://icon.png<>res://src/Templates/EnemyPredator.tscn
+::res://src/Scenes/Game/::1587047081
+::res://src/Scenes/Game/Basement/::1587047081
+::res://src/Scenes/Game/Basement/Floor1/::1587047081
+Elevator.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://src/Templates/Transition.tscn<>res://icon.png<>res://particle.png<>res://src/Scripts/NewScene.gd<>res://assets/textures/bg.png<>res://src/Templates/HelenPlayer.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Light.tscn<>res://src/Templates/Future-Uses/Surreal.tscn<>res://src/Templates/CGHandler.tscn
+ElevatorInside.tscn::PackedScene::1587047081::0::1::::<><>::res://talk.png<>res://particle.png<>res://src/Scripts/NewScene.gd<>res://src/Templates/Transition.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Effects/ShinySmall.tres<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/HelenPlayer.tscn
+Stairs2.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://src/Templates/Light.tscn<>res://icon.png<>res://particle.png<>res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://assets/textures/bg.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/Future-Uses/Surreal.tscn<>res://src/Templates/HelenPlayer.tscn
+Stairs.tscn::PackedScene::1587047081::0::1::::<><>::res://particle.png<>res://src/Scripts/NewScene.gd<>res://assets/textures/bg.png<>res://src/Templates/Future-Uses/Surreal.tscn<>res://src/Templates/HelenPlayer.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/CanvasTint.tscn<>res://assets/textures/dialog_box.png<>res://icon.png<>res://src/Templates/Light.tscn
+::res://src/Scenes/Game/Day1/::1587047081
+ApartmentGrounds.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/concept_art/apartments.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Player.tscn<>res://src/Scripts/NewScene.gd<>res://src/Templates/Transition.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/ExitNode.tscn
+ApartmentHallway.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/final/day1/apartment hallway.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Player.tscn<>res://src/Scripts/NewScene.gd<>res://src/Templates/Transition.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/ObjectWithDialogue.tscn<>res://assets/textures/dialog_box.png
+Church.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/final/day1/church2.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Player.tscn<>res://src/Scripts/NewScene.gd<>res://src/Templates/Transition.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Effects/PanCamera.tscn<>res://src/Templates/ExitNode.tscn
+EvanLivingRoom.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/final/day1/evan_s living room.png.png<>res://src/Templates/ObjectWithDialogue.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/HelenPlayer.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/InteractableArea.tscn<>res://assets/textures/light/light.png<>res://src/Templates/EnemyPredator.tscn<>res://src/Templates/Effects/Moonlight.tscn
+EvanRoom.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/CanvasTint.tscn<>res://src/Templates/Player.tscn<>res://src/Scripts/NewScene.gd<>res://src/Templates/Transition.tscn<>res://src/Templates/CGHandler.tscn<>res://assets/textures/levels/final/day1/evan_s bed room.png.png<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Effects/FogDynamic.tscn
+IndustrialGate.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/final/day1/industry.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Player.tscn<>res://src/Scripts/NewScene.gd<>res://src/Templates/Transition.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/ObjectWithDialogue.tscn<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Scripts/Layer.gd
+MainPath.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/final/day1/Main path.png.png<>res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/final/day1/main path.png<>res://assets/textures/levels/final/day1/headge.png<>res://src/Templates/Objects/Tree.tscn<>res://assets/textures/levels/final/day1/lampost.png<>res://src/Scripts/Layer.gd<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/Objects/Lamp.tscn<>res://src/Templates/Objects/SignTexts.tscn
+Park.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://assets/textures/levels/final/day1/glass1.png<>res://src/Templates/Transition.tscn<>res://assets/textures/levels/final/day1/glass.png<>res://assets/textures/levels/final/day1/cliff.png<>res://src/Templates/Player.tscn<>res://src/Templates/Character.tscn<>res://src/Templates/Objects/Tree.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn
+ParkPath.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/Player.tscn<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/Objects/Tree.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/final/day2/park pathway.png
+Square.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/final/day1/Court of the Commune .png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Player.tscn<>res://src/Scripts/NewScene.gd<>res://src/Templates/Transition.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Future-Uses/SignTextSquare.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/ObjectWithDialogue.tscn<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Scripts/Layer.gd<>res://assets/textures/levels/final/day1/court of commune lampost.png<>res://src/Templates/Effects/PanCamera.tscn<>res://src/Templates/Light.tscn<>res://assets/textures/light/moonlight.png
+Title.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://addons/MSG_System/fonts/font_normal.tres<>res://talk.png<>res://src/Scripts/BG.gd<>res://src/Templates/Future-Uses/wanky.shader<>res://src/Scripts/TitleScreen.gd<>res://src/Scripts/MenuButton.gd<>res://icon_cursed.png<>res://assets/textures/settings.png<>res://icon.png<>res://src/Templates/Future-Uses/SettingsMenu.tscn
+Villas.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/final/day1/villas.png<>res://src/Templates/CanvasTint.tscn<>res://assets/textures/dialog_box.png<>res://addons/MSG_System/fonts/font_normal.tres<>res://src/Templates/Transition.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Character.tscn<>res://src/Templates/ExitNode.tscn<>res://addons/MSG_System/fonts/open_sans/OpenSans-Regular.ttf<>res://assets/textures/light/player_light.png<>res://assets/characters/player/frame0001.png<>res://assets/characters/player/body_shape.tres<>res://src/Scripts/Control.gd<>res://src/Scripts/TalkBubble.gd<>res://src/Templates/Future-Uses/VolumeSlider.tscn<>res://icon_cursed.png<>res://icon.png<>res://assets/characters/player/sprite.tres<>res://assets/characters/player/frame0002.png<>res://assets/characters/player/face.tres<>res://particle.png<>res://assets/characters/player/frame0000.png<>res://src/Templates/InteractableArea.tscn
+VillasSecond.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/characters/player/sprite.tres<>res://addons/MSG_System/fonts/font_normal.tres<>res://addons/MSG_System/fonts/open_sans/OpenSans-Regular.ttf<>res://assets/textures/dialog_box.png<>res://assets/textures/levels/final/day1/villas.png<>res://particle.png<>res://assets/textures/light/player_light.png<>res://assets/characters/player/frame0000.png<>res://src/Scripts/Control.gd<>res://src/Scripts/TalkBubble.gd<>res://icon_cursed.png<>res://src/Templates/Future-Uses/VolumeSlider.tscn<>res://icon.png<>res://assets/characters/player/frame0002.png<>res://assets/characters/player/frame0001.png<>res://assets/characters/player/body_shape.tres<>res://assets/characters/player/face.tres<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/InteractableArea.tscn<>res://src/Templates/Transition.tscn
+::res://src/Scenes/Game/Day1/Night/::1587047081
+ApartmentHallway.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://assets/textures/levels/final/day1/apartment hallway.png<>res://src/Templates/Player.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/ObjectWithDialogue.tscn<>res://src/Templates/Effects/Streetlamp.tscn<>res://src/Templates/Effects/Moonlight.tscn
+Church.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/final/day1/church2.png<>res://src/Templates/Light.tscn<>res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/Effects/Streetlamp.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Effects/Moonlight.tscn<>res://src/Templates/Character.tscn
+EvanLivingRoom.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/InteractableArea.tscn<>res://assets/textures/levels/final/day1/evan_s living room.png.png<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/Effects/Moonlight.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/ObjectWithDialogue.tscn
+EvanRoom.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://assets/textures/levels/final/day1/evan_s bed room.png.png<>res://src/Templates/Transition.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Effects/Moonlight.tscn
+MainPath.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/Transition.tscn<>res://src/Scripts/NewScene.gd<>res://src/Templates/InteractableArea.tscn<>res://assets/textures/levels/final/day1/headge.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Scripts/Layer.gd<>res://src/Templates/Objects/Tree.tscn<>res://src/Templates/Player.tscn<>res://assets/textures/levels/final/day1/main path.png<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Objects/Lamp.tscn<>res://assets/textures/levels/final/day1/Main path.png.png<>res://assets/textures/levels/final/day1/lampost.png<>res://src/Templates/Effects/Streetlamp.tscn<>res://assets/textures/light/light.png<>res://src/Templates/Objects/SignTexts.tscn<>res://src/Templates/Effects/Moonlight.tscn<>res://assets/textures/light/spot.png
+Square.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Scripts/BG.gd<>res://src/Scripts/Layer.gd<>res://src/Templates/Player.tscn<>res://assets/textures/levels/final/day1/Court of the Commune .png<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/Future-Uses/SignTextSquare.tscn<>res://src/Templates/ObjectWithDialogue.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/final/day1/court of commune lampost.png<>res://src/Templates/Effects/Moonlight.tscn<>res://particle.png<>res://src/Templates/Effects/Streetlamp.tscn<>res://icon.png<>res://src/Templates/Effects/PanCamera.tscn
+::res://src/Scenes/Game/Day1/Noon/::1587047081
+ApartmentHallway.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://src/Scripts/NewScene.gd<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/final/day1/apartment hallway.png<>res://src/Templates/ObjectWithDialogue.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/CGHandler.tscn
+ChurchNoon.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/Effects/PanCamera.tscn<>res://src/Templates/NPCs/MayorWife.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Character.tscn<>res://assets/textures/levels/final/day1/church.png<>res://src/Templates/Transition.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/ExitNode.tscn
+EvanLivingRoom.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/InteractableArea.tscn<>res://src/Templates/CGHandler.tscn<>res://assets/textures/levels/final/day1/evan_s living room.png.png<>res://src/Templates/ObjectWithDialogue.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/Transition.tscn
+EvanRoom.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/Player.tscn<>res://assets/textures/levels/final/day1/evan_s bed room.png.png
+IndustrialGate.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/Player.tscn<>res://src/Scripts/NewScene.gd<>res://src/Scripts/Layer.gd<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/ObjectWithDialogue.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/final/day1/industry.png
+MainPathNoon.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/ExitNode.tscn<>res://src/Scripts/NewScene.gd<>res://src/Templates/Transition.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Player.tscn<>res://assets/textures/levels/final/day1/Main path.png.png<>res://assets/textures/levels/final/day1/headge.png<>res://assets/textures/levels/final/day1/lampost.png<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Scripts/Layer.gd<>res://assets/textures/levels/final/day1/main path.png<>res://src/Templates/Objects/Tree.tscn<>res://src/Templates/Objects/Lamp.tscn<>res://src/Templates/InteractableArea.tscn<>res://src/Templates/Objects/SignTexts.tscn
+ParkNoon.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/Player.tscn<>res://src/Templates/Objects/Tree.tscn<>res://assets/characters/helen/Helen scared 2.png<>res://assets/characters/helen/helen0.png<>res://assets/characters/player/body_shape.tres<>res://src/Templates/CGHandler.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/final/day1/cliff.png<>res://src/Templates/Transition.tscn<>res://src/Templates/CanvasTint.tscn<>res://assets/textures/levels/final/day1/glass.png<>res://assets/textures/levels/final/day1/glass1.png<>res://assets/characters/helen/Helen normal.png<>res://assets/textures/light/player_light.png<>res://assets/characters/helen/helen2.png<>res://assets/characters/helen/Helen happy.png<>res://assets/characters/helen/helen1.png<>res://assets/characters/helen/Helen sad.png
+ParkPath.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/CanvasTint.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Scripts/NewScene.gd<>res://src/Templates/Transition.tscn<>res://src/Templates/Player.tscn<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/Objects/Tree.tscn<>res://assets/textures/levels/final/day2/park pathway.png<>res://src/Templates/ExitNode.tscn
+Square.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/Player.tscn<>res://src/Scripts/Layer.gd<>res://src/Templates/Future-Uses/SignTextSquare.tscn<>res://assets/textures/levels/final/day1/court of commune lampost.png<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/ExitNode.tscn<>res://src/Templates/CanvasTint.tscn<>res://assets/textures/levels/final/day1/Court of the Commune .png<>res://src/Templates/ObjectWithDialogue.tscn<>res://src/Templates/Effects/PanCamera.tscn
+::res://src/Scenes/Game/Day2/::1587047081
+ApartmentHallway.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://assets/textures/levels/final/day1/apartment hallway.png<>res://src/Templates/Player.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/ObjectWithDialogue.tscn
+EvanLivingRoom.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/InteractableArea.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/final/day1/evan_s living room.png.png
+EvanRoom.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/CGHandler.tscn<>res://assets/textures/levels/final/day1/evan_s bed room.png.png<>res://src/Templates/Transition.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn
+IndustrialGate.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/ObjectWithDialogue.tscn<>res://src/Templates/Transition.tscn<>res://src/Scripts/Layer.gd<>res://src/Templates/Player.tscn<>res://assets/textures/levels/final/day1/tree 1.png<>res://assets/textures/levels/final/day1/industry.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn
+MainPath.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://assets/textures/levels/final/day1/lampost.png<>res://src/Scripts/Layer.gd<>res://assets/textures/levels/final/day1/main path.png<>res://src/Templates/Player.tscn<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/Objects/Tree.tscn<>res://src/Templates/Objects/SignTexts.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Objects/Lamp.tscn<>res://assets/textures/levels/final/day1/headge.png
+Park.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Objects/Tree.tscn<>res://assets/textures/levels/final/day1/cliff.png<>res://src/Templates/Player.tscn<>res://src/Templates/CanvasTint.tscn<>res://assets/textures/levels/final/day1/glass.png<>res://src/Templates/Transition.tscn<>res://src/Templates/CGHandler.tscn<>res://assets/textures/levels/final/day1/glass1.png
+ParkPath.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://assets/textures/levels/final/day2/park pathway.png<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Objects/Tree.tscn<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/ExitNode.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/Transition.tscn
+SquareCrowded.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/ObjectWithDialogue.tscn<>res://src/Templates/Transition.tscn<>res://src/Scripts/Layer.gd<>res://src/Templates/Player.tscn<>res://src/Templates/Effects/PanCamera.tscn<>res://assets/textures/levels/final/day1/tree 1.png<>res://assets/textures/levels/final/day1/court of commune lampost.png<>res://src/Templates/Future-Uses/SignTextSquare.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/final/day2/Court of the Commune w ppl.png<>res://src/Templates/Character.tscn
+Villas.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://addons/MSG_System/fonts/font_normal.tres<>res://addons/MSG_System/fonts/open_sans/OpenSans-Regular.ttf<>res://assets/textures/light/player_light.png<>res://assets/characters/player/frame0002.png<>res://src/Scripts/Control.gd<>res://src/Scripts/TalkBubble.gd<>res://src/Templates/Future-Uses/VolumeSlider.tscn<>res://icon_cursed.png<>res://icon.png<>res://src/Templates/CGHandler.tscn<>res://assets/characters/player/frame0000.png<>res://src/Templates/Transition.tscn<>res://assets/characters/player/frame0001.png<>res://assets/characters/player/body_shape.tres<>res://assets/characters/player/face.tres<>res://src/Templates/InteractableArea.tscn<>res://particle.png<>res://assets/textures/bg.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/characters/player/sprite.tres<>res://assets/textures/levels/final/day1/villas.png<>res://src/Templates/LayerSystem.tscn
+VillasSecond.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/characters/player/sprite.tres<>res://addons/MSG_System/fonts/font_normal.tres<>res://addons/MSG_System/fonts/open_sans/OpenSans-Regular.ttf<>res://assets/textures/dialog_box.png<>res://assets/textures/levels/final/day1/villas.png<>res://particle.png<>res://assets/textures/light/player_light.png<>res://assets/characters/player/frame0000.png<>res://src/Scripts/Control.gd<>res://src/Scripts/TalkBubble.gd<>res://icon_cursed.png<>res://src/Templates/Future-Uses/VolumeSlider.tscn<>res://icon.png<>res://assets/characters/player/frame0002.png<>res://assets/characters/player/frame0001.png<>res://assets/characters/player/body_shape.tres<>res://assets/characters/player/face.tres<>res://src/Templates/Transition.tscn<>res://src/Templates/Character.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/InteractableArea.tscn
+::res://src/Scenes/Game/Day2/Night/::1587047081
+ApartmentHallway.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://src/Scripts/NewScene.gd<>res://src/Templates/Effects/Moonlight.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/ObjectWithDialogue.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Effects/Streetlamp.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/final/day1/apartment hallway.png
+Park.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/final/day1/cliff.png<>res://src/Templates/Transition.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/CanvasTint.tscn<>res://assets/textures/levels/final/day1/glass.png<>res://src/Templates/Objects/Tree.tscn<>res://assets/textures/levels/final/day1/glass1.png<>res://src/Templates/Effects/Moonlight.tscn<>res://particle.png<>res://assets/textures/light/spot.png<>res://assets/textures/light/light.png
+ParkPath.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/final/day2/park pathway.png<>res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Objects/Tree.tscn<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Effects/Moonlight.tscn<>res://particle.png<>res://src/Templates/Effects/Streetlamp.tscn
+ParkPathNightKidnapping.tscn::PackedScene::1587047081::0::1::::<><>::res://particle.png<>res://assets/textures/levels/final/day2/park pathway.png<>res://src/Scripts/TalkBubble.gd<>res://src/Scripts/BG.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Effects/Moonlight.tscn<>res://assets/textures/light/spot.png<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Objects/Tree.tscn<>res://src/Templates/InteractableArea.tscn<>res://src/Templates/Effects/Streetlamp.tscn<>res://icon.png<>res://assets/characters/player/frame0002.png<>res://src/Templates/UI.tscn<>res://assets/textures/light/player_light.png<>res://assets/characters/player/face.tres<>res://assets/characters/player/frame0001.png<>res://assets/characters/player/sprite.tres<>res://assets/characters/player/body_shape.tres<>res://assets/characters/player/frame0000.png<>res://assets/textures/light/light.png
+::res://src/Scenes/Game/Day2/Noon/::1587047081
+ApartmentHallway.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/ObjectWithDialogue.tscn<>res://assets/textures/levels/final/day1/apartment hallway.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn
+Church.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/Effects/PanCamera.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/NPCs/MayorWife.tscn<>res://src/Templates/Character.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/final/day1/church.png
+IndustrialGate.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Scripts/Layer.gd<>res://src/Templates/Player.tscn<>res://src/Templates/ObjectWithDialogue.tscn<>res://assets/textures/levels/final/day1/tree 1.png<>res://assets/textures/levels/final/day1/industry.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn
+MainPath.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://assets/textures/levels/final/day1/lampost.png<>res://src/Scripts/Layer.gd<>res://assets/textures/levels/final/day1/main path.png<>res://src/Templates/Player.tscn<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/Objects/Tree.tscn<>res://src/Templates/Objects/SignTexts.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Objects/Lamp.tscn<>res://assets/textures/levels/final/day1/headge.png
+::res://src/Scenes/Game/Day3/::1587047081
+ApartmentHallway.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/ObjectWithDialogue.tscn<>res://src/Templates/HelenPlayer.tscn<>res://assets/textures/levels/final/day1/apartment hallway.png
+Final.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Scripts/BG.gd<>res://src/Templates/Effects/Moonlight.tscn<>res://particle.png<>res://assets/characters/player/Evan normal.png<>res://src/Scripts/Layer.gd<>res://assets/textures/levels/final/day1/court of commune lampost.png<>res://icon.png<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/Effects/Streetlamp.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Effects/PanCamera.tscn<>res://src/Templates/Future-Uses/SignTextSquare.tscn<>res://assets/textures/levels/final/day1/Court of the Commune .png<>res://src/Templates/ObjectWithDialogue.tscn<>res://src/Templates/HelenPlayer.tscn<>res://assets/characters/player/evan0.png<>res://src/Templates/LayerSystem.tscn<>res://assets/textures/light/player_light.png<>res://assets/characters/player/Evan happy.png
+IndustrialGate.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/HelenPlayer.tscn<>res://assets/textures/levels/final/day1/industry.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/ObjectWithDialogue.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/Transition.tscn<>res://src/Scripts/Layer.gd
+MainPath.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/CGHandler.tscn<>res://assets/textures/levels/final/day1/lampost.png<>res://src/Templates/CanvasTint.tscn<>res://assets/textures/levels/final/day1/headge.png<>res://assets/textures/levels/final/day1/main path.png<>res://src/Templates/Transition.tscn<>res://src/Templates/Objects/Tree.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Objects/SignTexts.tscn<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/HelenPlayer.tscn<>res://src/Templates/Objects/Lamp.tscn<>res://src/Scripts/Layer.gd<>res://src/Templates/InteractableArea.tscn<>res://src/Templates/Effects/FogDynamic.tscn
+Park.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://assets/textures/levels/final/day1/glass.png<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Objects/Tree.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/final/day1/cliff.png<>res://assets/textures/levels/final/day1/glass1.png<>res://src/Templates/HelenPlayer.tscn
+ParkPath.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://assets/textures/levels/final/day2/park pathway.png<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Objects/Tree.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/HelenPlayer.tscn<>res://src/Templates/Objects/DroppedKeys.tscn
+Square.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/Character.tscn<>res://src/Templates/CanvasTint.tscn<>res://assets/textures/levels/final/day1/court of commune lampost.png<>res://src/Templates/Future-Uses/SignTextSquare.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/HelenPlayer.tscn<>res://assets/textures/levels/final/day1/tree 1.png<>res://src/Templates/Effects/PanCamera.tscn<>res://assets/textures/levels/final/day1/Court of the Commune .png<>res://src/Scripts/Layer.gd<>res://src/Templates/ObjectWithDialogue.tscn
+::res://src/Scenes/Old/::1587047081
+Basement.tscn::PackedScene::1587047081::0::1::::<><>::res://icon.png<>res://assets/textures/bg.png<>res://assets/textures/dialog_box.png<>res://src/Scripts/player.gd<>res://assets/characters/player/sprite.tres<>res://assets/characters/player/body_shape.tres<>res://assets/characters/player/face.tres<>res://src/Templates/transition_template.tscn
+day_1.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://assets/characters/player/body_shape.tres<>res://assets/characters/player/face.tres<>res://src/Scripts/Player.gd<>res://assets/textures/bg.png<>res://assets/characters/player/sprite.tres<>res://icon.png<>res://src/Templates/Transition.tscn<>res://assets/textures/light/light.png<>res://assets/textures/light/spot.png<>res://assets/music/park.wav
+Game.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/characters/player/body_shape.tres<>res://assets/characters/player/face.tres<>res://src/Templates/new_scene_template.gd<>res://src/Scripts/player.gd<>res://src/Scripts/npc_script.gd<>res://assets/textures/bg.png<>res://assets/characters/player/sprite.tres<>res://icon.png<>res://src/Templates/transition_template.tscn<>res://particle.png<>res://src/Templates/light_template.tscn<>res://src/Templates/UI.tscn
+Home.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/new_scene_template.gd<>res://assets/textures/levels/home.png<>res://icon.png<>res://assets/textures/bg.png<>res://src/Scripts/Exit.gd<>res://src/Scripts/player.gd<>res://assets/characters/player/sprite.tres<>res://assets/characters/player/body_shape.tres<>res://assets/characters/player/face.tres<>res://src/Templates/transition_template.tscn
+Intro2.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/characters/player/body_shape.tres<>res://assets/music/simple version of ending.ogg<>res://assets/characters/player/face.tres<>res://src/Templates/new_scene_template.gd<>res://src/Scripts/player.gd<>res://assets/textures/bg.png<>res://assets/characters/player/sprite.tres<>res://icon.png<>res://src/Templates/character_template.tscn<>res://assets/textures/light/light.png<>res://assets/textures/light/spot.png<>res://src/Templates/transition_template.tscn
+Intro.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/new_scene_template.gd<>res://icon.png<>res://assets/textures/bg.png<>res://assets/textures/dialog_box.png<>res://src/Templates/light_template.tscn<>res://src/Templates/character_template.tscn<>res://src/Scripts/player.gd<>res://assets/characters/player/sprite.tres<>res://assets/characters/player/body_shape.tres<>res://assets/characters/player/face.tres<>res://src/Templates/transition_template.tscn<>res://src/Templates/UI.tscn
+old_lady.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://assets/characters/player/body_shape.tres<>res://assets/characters/player/face.tres<>res://src/Templates/new_scene_template.gd<>res://src/Scripts/player.gd<>res://assets/music/slow_low.ogg<>res://assets/textures/bg.png<>res://assets/characters/player/sprite.tres<>res://icon.png<>res://assets/textures/light/light.png<>res://assets/textures/light/spot.png<>res://particle.png<>res://src/Templates/transition_template.tscn
+Prototype.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://assets/characters/player/body_shape.tres<>res://assets/characters/player/face.tres<>res://src/Templates/new_scene_template.gd<>res://src/Scripts/player.gd<>res://assets/textures/bg.png<>res://assets/characters/player/sprite.tres<>res://icon.png<>res://assets/textures/levels/hood.png<>res://src/Templates/transition_template.tscn
+Title.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/music/simple version of ending.ogg<>res://icon.png<>res://src/Scripts/title_screen.gd<>res://src/Templates/Future-Uses/Window-Settings.tscn<>res://src/Templates/transition_template.tscn<>res://src/Templates/bg_template.tscn<>res://particle.png
+town_hall.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://assets/characters/player/body_shape.tres<>res://assets/characters/player/face.tres<>res://src/Scripts/player.gd<>res://assets/textures/bg.png<>res://assets/characters/player/sprite.tres<>res://icon.png<>res://src/Templates/transition_template.tscn
+::res://src/Scenes/testing/::1587047081
+::res://src/Scenes/testing/Intro/::1587047081
+Intro.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/testing/station.png<>res://src/Scripts/BG.gd<>res://icon.png<>res://src/Templates/Player.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Effects/Moonlight.tscn<>res://src/Templates/Light.tscn<>res://src/Templates/Effects/MoonlightParticleAbove.tscn<>res://src/Templates/Character.tscn<>res://assets/textures/levels/testing/station_car2.png<>res://assets/textures/levels/testing/station_car1.png<>res://src/Templates/Effects/Fog.tscn
+::res://src/Scenes/testing/Intro/Day1/::1587047081
+Day1.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/MCs/Helen.tscn<>res://assets/textures/levels/testing/park_day2.png<>res://src/Templates/Effects/Fog.tscn<>res://src/Templates/Effects/ShinySmall.tscn<>res://assets/textures/light/ moonlight_particle.png<>res://assets/textures/light/spot.png<>res://assets/textures/light/moonlight.png<>res://src/Templates/Effects/Streetlamp.tscn<>res://src/Templates/Transition.tscn<>res://assets/textures/levels/testing/park_day2_parallax.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Player.tscn<>res://assets/textures/light/light.png<>res://src/Templates/ExitNode.tscn
+Delivery.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/testing/delivery.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/LayerSystem.tscn<>res://src/Templates/Object.tscn<>res://src/Templates/Effects/Moonlight.tscn<>res://src/Templates/Character.tscn<>res://assets/textures/dialog_box.png<>res://assets/textures/bg.png<>res://icon.png<>res://src/Templates/MCs/Helen.tscn<>res://assets/textures/particles/dark_snow.png<>res://src/Templates/Effects/ParallaxBackground.tscn
+EvanHouse.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/testing/evan_house.png<>res://src/Scripts/NewScene.gd<>res://src/Templates/Player.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Transition.tscn<>res://assets/textures/levels/testing/evan_house_overlay_door.png<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Light.tscn<>res://src/Templates/Effects/Moonlight.tscn
+Lady.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://src/Templates/CanvasTint.tscn<>res://src/Scripts/NewScene.gd<>res://icon.png<>res://assets/textures/light/player_light.png<>res://assets/textures/levels/testing/delivery_overlay_building.png<>res://assets/textures/bg.png<>res://assets/textures/levels/testing/ lady.png<>res://src/Templates/LayerSystem.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Effects/Moonlight.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/Effects/Streetlamp.tscn
+Park.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/light/light.png<>res://assets/textures/light/spot.png<>res://assets/textures/light/moonlight.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Character.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Effects/ShinySmall.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/Effects/Fog.tscn<>res://assets/textures/light/ moonlight_particle.png<>res://assets/textures/levels/testing/park_day2.png
+Something.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/bg.png<>res://src/Scripts/NewScene.gd<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Effects/ShinySmall.tscn<>res://assets/textures/light/ moonlight_particle.png<>res://src/Templates/Character.tscn<>res://src/Templates/Effects/Moonlight.tscn<>res://src/Templates/Effects/Fog.tscn
+TownHall.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://assets/textures/levels/testing/townhall.png<>res://src/Templates/CanvasTint.tscn<>res://icon.png<>res://assets/textures/light/player_light.png<>res://assets/textures/light/spot.png<>res://assets/textures/bg.png<>res://src/Templates/LayerSystem.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Transition.tscn
+TownHallHall.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/CanvasTint.tscn<>res://assets/textures/light/light.png<>res://src/Templates/Player.tscn<>res://src/Templates/Character.tscn<>res://src/Templates/Effects/Moonlight.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/testing/townhall_hall.png
+::res://src/Scenes/testing/Intro/Day2/::1587047081
+Church.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://assets/textures/levels/testing/church.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Effects/Moonlight.tscn<>res://src/Templates/Character.tscn<>res://src/Templates/Effects/ShinySmall.tscn<>res://src/Templates/Effects/Fog.tscn<>res://src/Templates/ExitNode.tscn
+Day2.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://icon.png<>res://assets/textures/bg.png<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/CanvasTint.tscn<>res://assets/textures/particles/dark_snow.png<>res://src/Templates/Effects/Moonlight.tscn<>res://src/Templates/LayerSystem.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/testing/delivery.png<>res://src/Templates/Object.tscn<>res://src/Templates/Effects/ParallaxBackground.tscn<>res://src/Templates/MCs/Helen.tscn<>res://src/Templates/Character.tscn
+EvanHouse.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/testing/evan_house.png<>res://src/Scripts/NewScene.gd<>res://src/Templates/Transition.tscn<>res://src/Templates/Effects/Moonlight.tscn<>res://src/Templates/Light.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/ExitNode.tscn<>res://assets/textures/levels/testing/evan_house_overlay_door.png<>res://src/Templates/Player.tscn<>res://src/Templates/CanvasTint.tscn
+Neighborhood.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://assets/textures/levels/testing/delivery_overlay_building.png<>res://assets/textures/levels/testing/ lady.png<>res://assets/textures/light/player_light.png<>res://src/Scripts/NewScene.gd<>res://icon.png<>res://src/Templates/Transition.tscn<>res://src/Templates/Effects/Moonlight.tscn<>res://src/Templates/LayerSystem.tscn<>res://assets/textures/bg.png<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Effects/Streetlamp.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/CanvasTint.tscn
+ParkDay2.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/testing/park_day2_parallax.png<>res://assets/textures/light/spot.png<>res://assets/textures/levels/testing/park_day2.png<>res://assets/textures/light/moonlight.png<>res://assets/textures/light/light.png<>res://src/Templates/Effects/ShinySmall.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/Effects/Fog.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/MCs/Helen.tscn<>res://assets/textures/light/ moonlight_particle.png<>res://src/Templates/Effects/Streetlamp.tscn<>res://particle.png
+::res://src/Scenes/testing/Intro/NewDay1/::1587047081
+Delivery.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://src/Templates/CanvasTint.tscn<>res://src/Scripts/NewScene.gd<>res://icon.png<>res://assets/textures/light/player_light.png<>res://assets/textures/levels/testing/delivery_overlay_building.png<>res://assets/textures/bg.png<>res://assets/textures/levels/testing/ lady.png<>res://src/Templates/LayerSystem.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Effects/Moonlight.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/Effects/Streetlamp.tscn<>res://src/Templates/ObjectWithDialogue.tscn
+Intersection.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://assets/textures/bg.png<>res://icon.png<>res://assets/textures/levels/testing/delivery.png<>res://src/Templates/LayerSystem.tscn<>res://assets/textures/particles/dark_snow.png<>res://src/Templates/CGHandler.tscn<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Character.tscn<>res://src/Templates/Object.tscn<>res://src/Templates/ExitNode.tscn<>res://src/Templates/Effects/Moonlight.tscn<>res://src/Templates/Effects/ParallaxBackground.tscn<>res://src/Templates/MCs/Helen.tscn<>res://src/Templates/Player.tscn<>res://src/Templates/ObjectWithDialogue.tscn
+::res://src/Scripts/::1587047081
+BG.gd::GDScript::1587047081::0::1::::<>Node2D<>::
+CloakTimer.gd::GDScript::1587047081::0::1::::<>Control<>::
+Control.gd::GDScript::1587047081::0::1::::<>CanvasLayer<>::
+EnemyPredator.tres.gd::GDScript::1587047081::0::1::::<>KinematicBody2D<>::res://src/Scripts/NPC.gd
+EnemySurveyors.tres.gd::GDScript::1587047081::0::1::::<>KinematicBody2D<>::res://src/Scripts/NPC.gd
+Exit.gd::GDScript::1587047081::0::1::::<>Area2D<>::
+ExitNode.gd::GDScript::1587047081::0::1::::<>Area2D<>::
+Global.gd::GDScript::1587047081::0::1::::<>Node<>::
+Layer.gd::GDScript::1587047081::0::1::::<>Area2D<>::
+MenuButton.gd::GDScript::1587047081::0::1::::<>Button<>::
+NewScene.gd::GDScript::1587047081::0::1::::<>Node2D<>::
+NPC.gd::GDScript::1587047081::0::1::::<>KinematicBody2D<>::
+Player.gd::GDScript::1587047081::0::1::::<>KinematicBody2D<>::
+TalkBubble.gd::GDScript::1587047081::0::1::::<>Node2D<>::
+TitleScreen.gd::GDScript::1587047081::0::1::::<>Node2D<>::
+title_screen.gd::GDScript::1587047081::0::1::::<>Node2D<>::
+VolumeSlider.gd::GDScript::1587047081::0::1::::<>HSlider<>::
+::res://src/Templates/::1587047235
+BG.tscn::PackedScene::1587047081::0::1::::<><>::
+CanvasTint.tscn::PackedScene::1587047081::0::1::::<><>::
+CGHandler.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/bg.png
+Character.tscn::PackedScene::1587047081::0::1::::<><>::res://icon.png<>res://assets/textures/dialog_box.png<>res://assets/textures/bg.png<>res://src/Templates/LayerSystem.tscn<>res://assets/textures/light/player_light.png<>res://assets/textures/light/light.png
+Enemy.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://assets/textures/light/player_light.png<>res://icon.png<>res://assets/textures/bg.png<>res://assets/textures/light/moonlight.png<>res://src/Templates/EnemyMovement.gd<>res://particle.png<>res://src/Scripts/EnemySurveyors.tres.gd<>res://icon_cursed.png
+EnemyMovement.gd::GDScript::1587047081::0::1::::<>Node2D<>::
+EnemyPredator.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/dialog_box.png<>res://assets/textures/light/player_light.png<>res://icon.png<>res://particle.png<>res://assets/textures/bg.png<>res://assets/textures/light/moonlight.png<>res://src/Templates/EnemyMovement.gd<>res://src/Templates/LayerSystem.tscn<>res://src/Scripts/EnemyPredator.tres.gd
+ExitNode.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/ExitNode.gd
+GlobalMusicPlayer.tscn::PackedScene::1587047081::0::1::::<><>::
+HelenPlayer.tscn::PackedScene::1587047235::0::1::::<><>::res://src/Scripts/Player.gd<>res://src/Scripts/TalkBubble.gd<>res://assets/characters/player/frame0002.png<>res://src/Templates/UI.tscn<>res://assets/textures/light/player_light.png<>res://assets/characters/helen/Helen normal.png<>res://assets/characters/player/frame0001.png<>res://assets/characters/helen/helen0.png<>res://assets/characters/player/body_shape.tres<>res://assets/characters/player/frame0000.png<>res://assets/characters/helen/helen2.png<>res://assets/characters/helen/helen1.png<>res://assets/characters/helen/Helen happy.png<>res://assets/characters/helen/Helen scared 2.png<>res://assets/characters/helen/Helen sad.png<>res://icon_cursed.png<>res://assets/music/Floor Creaking.ogg
+InteractableArea.tscn::PackedScene::1587047081::0::1::::<><>::
+InteractableObject.tscn::PackedScene::1587047081::0::1::::<><>::
+LayerSystem.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/Layer.gd
+Light.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/light/spot.png<>res://assets/textures/light/light.png
+NewScene.tscn::PackedScene::1587047235::0::1::::<><>::res://src/Scripts/NewScene.gd<>res://src/Templates/HelenPlayer.tscn<>res://src/Templates/CanvasTint.tscn<>res://assets/textures/levels/testing/plane 1.png<>res://src/Templates/Transition.tscn<>res://src/Templates/CGHandler.tscn<>res://src/Templates/Future-Uses/Surreal.tscn<>res://particle.png<>res://src/Templates/Effects/ShinySmall.tres
+Object.tscn::PackedScene::1587047081::0::1::::<><>::res://icon.png<>res://src/Templates/LayerSystem.tscn
+ObjectWithDialogue.tscn::PackedScene::1587047081::0::1::::<><>::
+Particles.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/particles/dark_snow.png<>res://assets/textures/light/ moonlight_particle.png
+Player.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/Player.gd<>res://assets/characters/player/sprite.tres<>res://assets/characters/player/body_shape.tres<>res://assets/characters/player/face.tres<>res://src/Templates/UI.tscn<>res://assets/textures/light/player_light.png<>res://assets/characters/player/frame0001.png<>res://src/Scripts/TalkBubble.gd<>res://assets/characters/player/frame0002.png<>res://assets/characters/player/frame0000.png
+TalkBubble.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/TalkBubble.gd<>res://assets/music/Floor Creaking.ogg<>res://assets/characters/player/frame0001.png<>res://assets/characters/player/frame0000.png<>res://assets/characters/player/frame0002.png
+TemplateScene.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/Effects/ShinySmall.tres<>res://src/Scripts/NewScene.gd<>res://particle.png<>res://src/Templates/HelenPlayer.tscn<>res://assets/textures/bg.png<>res://src/Templates/CanvasTint.tscn<>res://src/Templates/Transition.tscn<>res://src/Templates/CGHandler.tscn<>res://assets/textures/light/player_light.png<>res://icon.png<>res://assets/textures/light/light.png<>res://src/Templates/LayerSystem.tscn<>res://assets/characters/mayor_wife/Mayor's wife.png
+Transition.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/BG.gd<>res://icon.png
+UI.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/Control.gd<>res://particle.png<>res://assets/textures/dialog_box.png<>res://addons/MSG_System/fonts/open_sans/OpenSans-Regular.ttf<>res://src/Templates/Future-Uses/VolumeSlider.tscn<>res://src/Scripts/CloakTimer.gd<>res://addons/MSG_System/fonts/font_normal.tres<>res://icon.png<>res://icon_cursed.png<>res://addons/MSG_System/fonts/font_bold.tres
+::res://src/Templates/Effects/::1587047081
+Fog.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/effects/fog.png
+FogDynamic.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/Future-Uses/diagonal_movement.shader
+Moonlight.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/light/moonlight.png<>res://assets/textures/light/spot.png
+MoonlightParticleAbove.tscn::PackedScene::1587047081::0::1::::<><>::res://particle.png
+PanCamera.tscn::PackedScene::1587047081::0::1::::<><>::
+ParallaxBackground.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/testing/delivery_overlay_trees.png<>res://assets/textures/levels/testing/delivery_overlay_building.png
+ShinySmall.tres::ParticlesMaterial::1587047081::0::1::::<><>::
+ShinySmall.tscn::PackedScene::1587047081::0::1::::<><>::res://particle.png
+Streetlamp.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/light/spot.png<>res://assets/textures/light/light.png
+::res://src/Templates/Future-Uses/::1587047081
+Colorful.shader::Shader::1587047081::0::1::::<><>::
+diagonal_movement.shader::Shader::1587047081::0::1::::<><>::
+floaty.shader::Shader::1587047081::0::1::::<><>::
+front_rotaty.shader::Shader::1587047081::0::1::::<><>::
+SettingsMenu.tscn::PackedScene::1587047081::0::1::::<><>::res://addons/MSG_System/fonts/font_normal.tres<>res://assets/textures/dialog_box.png<>res://src/Templates/Future-Uses/VolumeSlider.tscn<>res://addons/MSG_System/fonts/open_sans/OpenSans-Regular.ttf<>res://icon.png<>res://icon_cursed.png
+SignTextSquare.tscn::PackedScene::1587047081::0::1::::<><>::res://addons/MSG_System/fonts/open_sans/OpenSans-Regular.ttf
+Surreal.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/effects/fog.png<>res://src/Templates/Future-Uses/diagonal_movement.shader
+UIFont.tres::DynamicFont::1587047081::0::1::::<><>::res://addons/MSG_System/fonts/open_sans/OpenSans-Regular.ttf
+VolumeSlider.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Templates/Future-Uses/UIFont.tres<>res://src/Scripts/VolumeSlider.gd
+wanky.shader::Shader::1587047081::0::1::::<><>::
+Window-Settings.tscn::PackedScene::1587047081::0::1::::<><>::res://icon.png<>res://src/Scripts/MenuButton.gd
+WindowSettings.tscn::PackedScene::1587047081::0::1::::<><>::res://src/Scripts/MenuButton.gd<>res://icon.png
+::res://src/Templates/MCs/::1587047081
+Helen.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/characters/helen/face1.png<>res://icon.png<>res://src/Templates/LayerSystem.tscn<>res://icon_cursed.png
+::res://src/Templates/NPCs/::1587047081
+MayorWife.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/characters/mayor_wife/Mayor's wife.png<>res://assets/textures/light/player_light.png<>res://icon.png<>res://src/Templates/LayerSystem.tscn
+Snek.tscn::PackedScene::1587047081::0::1::::<><>::res://icon.png<>res://src/Scripts/Layer.gd<>res://assets/textures/bg.png<>res://assets/textures/dialog_box.png<>res://assets/characters/snek/snek.png<>res://assets/textures/light/player_light.png
+::res://src/Templates/Objects/::1587047081
+DroppedKeys.tscn::PackedScene::1587047081::0::1::::<><>::res://particle.png<>res://assets/textures/light/light.png<>res://assets/textures/light/spot.png
+Lamp.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/final/day1/lampost.png<>res://src/Scripts/Layer.gd<>res://addons/MSG_System/fonts/font_normal.tres
+SignText.tscn::PackedScene::1587047081::0::1::::<><>::res://addons/MSG_System/fonts/font_normal.tres
+SignTexts.tscn::PackedScene::1587047081::0::1::::<><>::res://addons/MSG_System/fonts/font_normal.tres
+Tree.tscn::PackedScene::1587047081::0::1::::<><>::res://assets/textures/levels/final/day1/tree 1.png<>res://src/Scripts/Layer.gd
