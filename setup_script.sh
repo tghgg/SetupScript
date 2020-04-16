@@ -53,7 +53,7 @@ case "$1" in
     ;;
 "install-silverblue-packages-layer")
     echo "Layering base Silverblue packages..."
-    rpm-ostree install breeze-cursor-theme vlc arc-theme nano gnome-shell-extension-dash-to-dock gnome-tweaks ibus-unikey papirus-icon-theme powertop eog evince tlp gnome-shell-extension-appindicator gnome-shell-extension-desktop-icons
+    rpm-ostree install breeze-cursor-theme arc-theme nano gnome-shell-extension-dash-to-dock gnome-tweaks ibus-unikey papirus-icon-theme powertop tlp gnome-shell-extension-appindicator gnome-shell-extension-desktop-icons
     ;;
 "download-configs")
     echo "Downloading .configs files from GitHub..."
