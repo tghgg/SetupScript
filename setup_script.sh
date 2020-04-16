@@ -51,6 +51,10 @@ case "$1" in
         ;;
     esac
     ;;
+"install-silverblue-packages-layer")
+    echo "Layering base Silverblue packages..."
+    rpm-ostree install arc-theme gnome-shell-extension-dash-to-dock gnome-tweaks ibus-unikey papirus-icon-theme powertop shotwell tlp
+    ;;
 "download-configs")
     echo "Downloading .configs files from GitHub..."
     ;;
@@ -102,6 +106,7 @@ case "$1" in
     echo "Commands:"
     echo "install-base-packages"
     echo "install-flatpak-base"
+    echo "install-silverblue-packages-layer"
     echo "install-joplin"
     echo "install-unity"
     echo "install-fish"
