@@ -11,8 +11,12 @@ case "$1" in
     case "$package_manager" in
     # Ubuntu/Debian
     "apt")
-        sudo apt install neofetch tlp powertop papirus-icon-theme fcitx fcitx-unikey krita lmms snapd godot3 peek
-        sudo snap install discord
+        #sudo apt install neofetch tlp powertop papirus-icon-theme fcitx fcitx-unikey krita lmms snapd godot3 peek
+        
+        # Kubuntu Setup
+        sudo apt install neofetch tlp powertop krita lmms godot3 peek qutebrowser vlc obs-studio
+
+        sudo snap install discord zoom
         sudo snap install codium --classic
         ;;
     # Arch
