@@ -1,0 +1,28 @@
+[General]
+ConfirmClosingMultipleTabs=false
+Version=200
+ViewPropsTimestamp=2020,4,12,1,0,31
+
+[IconsMode]
+PreviewSize=80
+
+[KFileDialog Settings]
+Recent Files[$e]=UnityHub.AppImage,file:$HOME/UnityHub.AppImage
+Recent URLs[$e]=file:$HOME/lmms/
+detailViewIconSize=0
+
+[KPropertiesDialog]
+Height 768=529
+Width 1366=463
+
+[MainWindow]
+Height 768=456
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAADLAAAClfwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAmAAAClQAAAFoBAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAoBAAADAAAEigAAApUAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1366=910
+Window-Maximized 768x1366=true
+
+[Open-with settings]
+CompletionMode=1
+History=kwr

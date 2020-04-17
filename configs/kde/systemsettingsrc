@@ -1,0 +1,12 @@
+[KFileDialog Settings]
+Recent Files[$e]=image0.jpg,file:$HOME/Pictures/image0.jpg
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=0
+
+[MainWindow]
+Height 768=659
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABVYAAAK7AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1024
+Window-Maximized 768x1366=true

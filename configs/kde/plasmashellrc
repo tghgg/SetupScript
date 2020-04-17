@@ -1,0 +1,24 @@
+[KFileDialog Settings]
+Recent Files[$e]=178-1788295_taiwan-taipei-skyscrapers-flat-artwork-neon-city-wallpaper.png,file:$HOME/Pictures/fed.jpg,file:$HOME/Pictures/178-1788295_taiwan-taipei-skyscrapers-flat-artwork-neon-city-wallpaper.png
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=0
+
+[KPropertiesDialog]
+Height 768=443
+Width 1366=417
+
+[PlasmaRunnerManager]
+LaunchCounts=2 services_kcm_touchpad.desktop,1 services_interrupts.desktop,3 services_kcm_energyinfo.desktop,1 services_kcm_fcitx.desktop,3 services_kcm_keyboard.desktop,1 services_system-config-language.desktop,1 services_com.visualstudio.code.oss.desktop,1 services_powerdevilprofilesconfig.desktop,2 services_us.zoom.Zoom.desktop,3 services_keys.desktop,4 services_org.kde.partitionmanager.desktop,1 shell_flatpak,6 services_kcm_nightcolor.desktop,1 shell_fcitx,1 services_discord_discord.desktop,1 services_kcm_kwin_virtualdesktops.desktop,4 services_fcitx.desktop,1 services_org.kde.discover.desktop
+pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=40
+
+[PlasmaViews][Panel 2][Horizontal1366]
+thickness=40
+
+[ScreenConnectors]
+0=eDP-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc-1.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/00-start-here-2.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js

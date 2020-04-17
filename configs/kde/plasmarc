@@ -1,0 +1,11 @@
+[OSD]
+Enabled=true
+
+[PlasmaToolTips]
+Delay=0.7
+
+[Theme]
+name=breeze-dark
+
+[Wallpapers]
+usersWallpapers=/home/fsnowdin/Pictures/fed.jpg,/home/fsnowdin/Pictures/178-1788295_taiwan-taipei-skyscrapers-flat-artwork-neon-city-wallpaper.png

@@ -1,0 +1,21 @@
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[Favorite Profiles]
+Favorites=
+
+[KonsoleWindow]
+ShowMenuBarByDefault=false
+
+[MainWindow]
+Height 768=408
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAHgAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1366=711
+Window-Maximized 768x1366=true
+
+[Notification Messages]
+CloseAllEmptyTabs=true
+CloseAllTabs=true
+CloseSingleTab=true
