@@ -57,7 +57,7 @@ case "$1" in
     ;;
 "install-silverblue-packages")
     echo "Layering base Silverblue packages..."
-    rpm-ostree install fish breeze-cursor-theme arc-theme nano gnome-shell-extension-dash-to-dock gnome-tweaks ibus-unikey papirus-icon-theme powertop tlp gnome-shell-extension-appindicator gnome-shell-extension-desktop-icons
+    rpm-ostree install fish gnome-shell-extension-dash-to-dock gnome-tweaks ibus-unikey tlp powertop gnome-shell-extension-appindicator
     ;;
 "download-configs")
     echo "Downloading .configs files from GitHub..."
@@ -96,7 +96,7 @@ case "$1" in
     ;;
 "install-flatpak-base")
     echo "Installing flatpaks for base packages"
-    flatpak install discord lmms krita godot firefox com.visualstudio.code.oss com.obsproject.Studio Peek zoom vlc
+    flatpak install discord lmms krita godot firefox com.visualstudio.code.oss com.obsproject.Studio Peek zoom vlc eog gedit evince
     ;;
 "smolfetch")
     if [ "$2" = "small" ] 
