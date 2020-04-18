@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-config-file>
+<lmms version="1.2.1">
+  <MidiAlsaRaw device="default"/>
+  <MidiJack device="lmms"/>
+  <Midialsaseq device="default"/>
+  <app nanhandler="1" openlastproject="0" disablebackup="0" displaydbfs="0" configured="1" language="en" nomsgaftersetup="0" nommpz="0"/>
+  <audioalsa device="default" channels="2"/>
+  <audiojack clientname="lmms" channels="2"/>
+  <audiooss device="/dev/dsp" channels="2"/>
+  <audiopa device="default" channels="2"/>
+  <audioportaudio device="" backend=""/>
+  <audiosdl device=""/>
+  <audiosndio device="" channels="2"/>
+  <audiosoundio out_device_id="alsa_output.pci-0000_00_1b.0.analog-stereo" out_device_raw="no" backend="PulseAudio"/>
+  <midioss device="/dev/midi"/>
+  <mixer mididev="ALSA-Sequencer (Advanced Linux Sound Architecture)" audiodev="SDL (Simple DirectMedia Layer)" hqaudio="0" framesperaudiobuffer="256"/>
+  <paths sf2dir="/home/fsnowdin/Documents/lmms/samples/soundfonts/" artwork="/home/fsnowdin/Documents/FlatBamboo/" laddir="/home/fsnowdin/Documents/lmms/plugins/ladspa/" workingdir="/home/fsnowdin/Documents/lmms/" vstdir="/home/fsnowdin/Documents/lmms/plugins/vst/" stkdir="/usr/share/stk/rawwaves/" gigdir="/home/fsnowdin/Documents/lmms/samples/gig/" backgroundartwork="" defaultsf2=""/>
+  <tooltips disabled="0"/>
+  <ui oneinstrumenttrackwindow="0" enableautosave="1" printnotelabels="1" animateafp="1" enablerunningautosave="0" smoothscroll="0" saveinterval="2" displaywaveform="1" syncvstplugins="1" compacttrackbuttons="0" vstalwaysontop="0" disableautoquit="1" vstembedmethod="xembed"/>
+  <recentfiles>
+    <file path="/home/fsnowdin/Music/LMMS-Projects/Projects/logs.mmpz"/>
+    <file path="/home/fsnowdin/Documents/lmms/templates/default.mpt"/>
+    <file path="data:/projects/templates/Empty.mpt"/>
+    <file path="data:/projects/templates/default.mpt"/>
+  </recentfiles>
+</lmms>
